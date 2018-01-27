@@ -23,7 +23,7 @@ class ProductTableSeeder extends Seeder
     		'slug' => 'd2',
     		'details' => 'a short description of the product',
     		'price' => 20,
-    		'description' => ' a long description about the product to sell'
+    		'description' => ' a long description about the product to sell',
             'category_id' => 1,
 
     	]);
@@ -34,7 +34,7 @@ class ProductTableSeeder extends Seeder
     		'slug' => 'sh4',
     		'details' => 'a short description of the product',
     		'price' => 30,
-    		'description' => ' a long description about the product to sell'
+    		'description' => ' a long description about the product to sell',
             'category_id' => 2,
     	]);
 
@@ -45,7 +45,7 @@ class ProductTableSeeder extends Seeder
     		'slug' => 'shirt1',
     		'details' => 'a short description of the product',
     		'price' => 40,
-    		'description' => ' a long description about the product to sell'
+    		'description' => ' a long description about the product to sell',
             'category_id' => 1,
     	]);
 
@@ -56,7 +56,7 @@ class ProductTableSeeder extends Seeder
     		'slug' => 'hb4',
     		'details' => 'a short description of the product',
     		'price' => 80,
-    		'description' => ' a long description about the product to sell'
+    		'description' => ' a long description about the product to sell',
             'category_id' => 1,
     	]);
 
@@ -67,7 +67,7 @@ class ProductTableSeeder extends Seeder
     		'slug' => 'shirt2',
     		'details' => 'a short description of the product',
     		'price' => 120,
-    		'description' => ' a long description about the product to sell'
+    		'description' => ' a long description about the product to sell',
             'category_id' => 2,
     	]);
 
@@ -78,7 +78,7 @@ class ProductTableSeeder extends Seeder
     		'slug' => 'hb1',
     		'details' => 'a short description of the product',
     		'price' => 120,
-    		'description' => ' a long description about the product to sell'
+    		'description' => ' a long description about the product to sell',
             'category_id' => 2,
     	]);
 
@@ -89,7 +89,7 @@ class ProductTableSeeder extends Seeder
     		'slug' => 'hb3',
     		'details' => 'a short description of the product',
     		'price' => 120,
-    		'description' => ' a long description about the product to sell'
+    		'description' => ' a long description about the product to sell',
             'category_id' => 2,
     	]);
 
@@ -100,7 +100,7 @@ class ProductTableSeeder extends Seeder
     		'slug' => 'd1',
     		'details' => 'a short description of the product',
     		'price' => 10,
-    		'description' => ' a long description about the product to sell'
+    		'description' => ' a long description about the product to sell',
             'category_id' => 1,
     	]);
 
