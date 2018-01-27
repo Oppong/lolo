@@ -1,0 +1,152 @@
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+/*body {
+	font-family: 'Open Sans Condensed', sans-serif;
+font-family: "Josefin Sans Std Light", "Times New Roman", Times, serif;
+font-size: 18px;
+overflow-y: scroll;
+overflow-x: hidden;
+color: #05121F;
+font-weight: bold;
+}*/
+
+p { font-family: 'Montserrat', sans-serif; }
+
+
+
+.display-5 {
+  font-size:5rem;
+  font-weight: 400px;
+  line-height: 1.2;
+  margin-top: -280px;
+  text-shadow: -1px 1px 4px rgba(0,0,0,0.8) -1px 1px 4px rgba(0,0,0,0.8);
+}
+
+.text-p {
+	display: none;
+	text-shadow: -1px 1px 4px rgba(0,0,0,0.8) -1px 1px 4px rgba(0,0,0,0.8);
+}
+
+
+@media all and (max-width: 320px) {
+	.carousel-inner img {
+		height: 250px;
+	}
+
+	.display-5 {
+		font-size: 1rem;
+		margin-top: -130px;
+	}
+} 
+
+@media all and (min-width: 321px) and (max-width: 500px) {
+	.carousel-inner img {
+		height: 300px;
+	}
+
+	.display-5 {
+		font-size: 1.2rem;
+		margin-top: -150px;
+	}
+}
+
+@media all and (min-width: 501px) and (max-width: 767px) {
+	.carousel-inner img {
+		height: 300px;
+	}
+
+	.display-5 {
+		font-size: 1.4rem;
+		margin-top: -150px;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+	.carousel-inner img {
+		height: 300px;
+	}
+
+	.display-5 {
+		font-size: 1.9rem;
+		margin-top: -150px;
+	}
+}
+
+
+.line {
+	border: solid 2px black;
+	width: 30%;
+}
+
+
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+	table#cart tbody tr td:first-child { background: #333; color: #fff; }
+	table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+	
+	
+	
+	table#cart tfoot td{display:block; }
+	table#cart tfoot td .btn{display:block;}
+	
+}
+
+
+
+ /**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+.StripeElement {
+  background-color: white;
+  height: 40px;
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
