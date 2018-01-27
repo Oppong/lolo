@@ -6,7 +6,7 @@
 	
 }
 
-/*body {
+body {
 	font-family: 'Open Sans Condensed', sans-serif;
 font-family: "Josefin Sans Std Light", "Times New Roman", Times, serif;
 font-size: 18px;
@@ -14,10 +14,7 @@ overflow-y: scroll;
 overflow-x: hidden;
 color: #05121F;
 font-weight: bold;
-}*/
-
-p { font-family: 'Montserrat', sans-serif; }
-
+}
 
 
 .display-5 {

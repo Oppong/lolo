@@ -9,10 +9,8 @@
     <link rel="stylesheet" type="text/css" href="{{asset('font-awesome-4.7.0/css/font-awesome.css')}}">
     <script src="https://js.stripe.com/v3/"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <!-- <link href="http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light"  
- rel="stylesheet" type="text/css" />-->
-
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+   <link href="http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light"  
+ rel="stylesheet" type="text/css" />
 
 </head>
 
