@@ -24,6 +24,7 @@ class ProductTableSeeder extends Seeder
     		'details' => 'a short description of the product',
     		'price' => 20,
     		'description' => ' a long description about the product to sell'
+            'category_id' => 1,
 
     	]);
 
@@ -34,7 +35,7 @@ class ProductTableSeeder extends Seeder
     		'details' => 'a short description of the product',
     		'price' => 30,
     		'description' => ' a long description about the product to sell'
-
+            'category_id' => 2,
     	]);
 
 
@@ -45,7 +46,7 @@ class ProductTableSeeder extends Seeder
     		'details' => 'a short description of the product',
     		'price' => 40,
     		'description' => ' a long description about the product to sell'
-
+            'category_id' => 1,
     	]);
 
 
@@ -56,7 +57,7 @@ class ProductTableSeeder extends Seeder
     		'details' => 'a short description of the product',
     		'price' => 80,
     		'description' => ' a long description about the product to sell'
-
+            'category_id' => 1,
     	]);
 
 
@@ -67,7 +68,7 @@ class ProductTableSeeder extends Seeder
     		'details' => 'a short description of the product',
     		'price' => 120,
     		'description' => ' a long description about the product to sell'
-
+            'category_id' => 2,
     	]);
 
 
@@ -78,7 +79,7 @@ class ProductTableSeeder extends Seeder
     		'details' => 'a short description of the product',
     		'price' => 120,
     		'description' => ' a long description about the product to sell'
-
+            'category_id' => 2,
     	]);
 
 
@@ -89,7 +90,7 @@ class ProductTableSeeder extends Seeder
     		'details' => 'a short description of the product',
     		'price' => 120,
     		'description' => ' a long description about the product to sell'
-
+            'category_id' => 2,
     	]);
 
 
@@ -100,7 +101,7 @@ class ProductTableSeeder extends Seeder
     		'details' => 'a short description of the product',
     		'price' => 10,
     		'description' => ' a long description about the product to sell'
-
+            'category_id' => 1,
     	]);
 
     }
